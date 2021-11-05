@@ -6,10 +6,12 @@
         text-align: center;
         margin-top: 50px;
         font-size: 25px;
+        background: aqua;
     }
 
     h1 {
         color: red;
+        font: bold;
     }
 
 </style>
@@ -17,15 +19,15 @@
 
 
 <body>
-    <h1>Covid Stats!</h1><br>
+    <h1>COVID COUNTRY INFORMATION</h1><br>
     <form method="POST">
-        <label >Enter a Country Code</label><br><br>
-    <input placeholder="Country Code" name="text">
-    <input type="submit">
-</form>
-    <img src="{{image }}">
+        <label>ENTER A COUNTRY CODE</label><br><br>
+        <input placeholder="type Country code here" name="text">
+        <input type = 'submit'>
+    </form>
+    <img src='{{image}}'>
 
 
-    <p>You have {{ count }} Visitors.</p>
+    <p>You Visited This Application {{ count }} Times.</p>
 </body>
 </html>
